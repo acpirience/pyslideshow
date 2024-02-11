@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyslideshow"
+version = "0.1.0"
+description = "show images in a folder as a slideshow"
+authors = ["acpirience <acpirience@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+rich = "^13.7.0"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
